@@ -9,7 +9,7 @@ pipeline {
     stage('') {
       steps {
         setGerritReview()
-        setGerritReview(customUrl: 'review.gerrithub.io', unsuccessfulMessage: 'abc')
+        setGerritReview(customUrl: 'gerrit.coasianexell.com', unsuccessfulMessage: 'abc')
       }
     }
   }
