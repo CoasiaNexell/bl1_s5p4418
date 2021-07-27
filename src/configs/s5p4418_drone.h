@@ -108,8 +108,10 @@
 #define CONFIG_S5P_SERIAL_INDEX			0
 #define CONFIG_BAUDRATE				115200
 
-
 /* pmic(power management ic) configuration */
 #define AXP228_PMIC_ENABLE
+
+#define AUTO_VOLTAGE_CONTROL			1
+#define ARM_VOLTAGE_CONTROL_SKIP		0
 
 #endif // #ifndef __S5P4418_DRONE_H__
