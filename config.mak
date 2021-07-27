@@ -213,3 +213,7 @@ CFLAGS += -DPMIC_CANCEL
 
 CFLAGS += -DMMC_REINIT
 endif
+
+ifeq ($(MMC_REINIT), y)
+CFLAGS += -DMMC_REINIT
+endif
